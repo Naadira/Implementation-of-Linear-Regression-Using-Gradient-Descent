@@ -28,9 +28,6 @@ import pandas as pd
 data=pd.read_csv("/content/ex1.txt",header=None)
 
 plt.scatter(data[0],data[1])
-x_value=[x for x in range(25)]
-y_value=[y*theta[1]+theta[0] for y in x_value]
-plt.plot(x_value,y_value,color="r")
 plt.xticks(np.arange(5,30,step=5))
 plt.yticks(np.arange(-5,30,step=5))
 plt.xlabel("Population of City (10,1000s)")
