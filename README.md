@@ -7,7 +7,7 @@ To write a program to predict the profit of a city using the linear regression m
 1. Hardware – PCs
 2. Anaconda – Python 3.7 Installation / Jupyter notebook
 
-## Algorithm
+## Algorithm:
 1. Import the standard python libraries for Gradient design.
 2. Introduce the variables needed to execute the function.
 3. Use function for the representation of the graph.
@@ -111,7 +111,6 @@ Profit prediction graph:
 Compute cost value:
 
 ![Compute cost value](https://user-images.githubusercontent.com/128135126/229297766-cdde2e4f-cf10-46d6-88b6-b8f1f04ab4d8.png)
-
 
 h(x) value:
 
