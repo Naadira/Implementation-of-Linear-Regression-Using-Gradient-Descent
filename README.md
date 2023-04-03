@@ -8,10 +8,12 @@ To write a program to predict the profit of a city using the linear regression m
 2. Anaconda – Python 3.7 Installation / Jupyter notebook
 
 ## Algorithm
-1. Import all the necessary python libraries.
+1. Import the standard python libraries for Gradient design.
 2. Introduce the variables needed to execute the function.
-3. Using for loop apply the concept using the formulae.
-4. Execute the program and plot the graph.
+3. Use function for the representation of the graph.
+4. Using for loop and apply the concept using the formulae.
+5. Execute the program and plot the graph.
+6. Predict the execute values for the given conditions.
 
 ## Program:
 ```
@@ -82,6 +84,7 @@ plt.xlabel("Iteration")
 plt.ylabel("$J(\Theta)$")
 plt.title("Cost function using Gradient Descent")
 
+print("Profit prediction graph:")
 def predict(x,theta):
   """
   Take in numpy array of x and theta and return the predicted value of y based on theta
