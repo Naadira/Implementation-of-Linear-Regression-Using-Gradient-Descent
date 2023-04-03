@@ -112,6 +112,7 @@ Compute cost value:
 
 ![Compute cost value](https://user-images.githubusercontent.com/128135126/229297766-cdde2e4f-cf10-46d6-88b6-b8f1f04ab4d8.png)
 
+
 h(x) value:
 
 ![h(x)](https://user-images.githubusercontent.com/128135126/229529799-c33628fc-db12-48e8-88af-cfbbf83ea00e.png)
