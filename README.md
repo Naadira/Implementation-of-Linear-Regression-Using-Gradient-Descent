@@ -114,7 +114,7 @@ Compute cost value:
 
 h(x) value:
 
-![h(x) value](https://user-images.githubusercontent.com/128135126/229297777-5fcdcd99-0954-4aa3-9ae7-151cb808ff65.png)
+![h(x)](https://user-images.githubusercontent.com/128135126/229528903-e2a0027b-5862-4f0f-80ca-04a42012a6a1.png)
 
 Cost function using Gradient Descent graph:
 
