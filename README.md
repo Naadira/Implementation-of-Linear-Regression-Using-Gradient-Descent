@@ -85,6 +85,16 @@ plt.ylabel("$J(\Theta)$")
 plt.title("Cost function using Gradient Descent")
 
 print("Profit prediction graph:")
+plt.scatter(data[0],data[1])
+x_value=[x for x in range(25)]
+y_value=[y*theta[1]+theta[0] for y in x_value]
+plt.plot(x_value,y_value,color="r")
+plt.xticks(np.arange(5,30,step=5))
+plt.yticks(np.arange(-5,30,step=5))
+plt.xlabel("Population of City (10,000s)")
+plt.ylabel("profit ($10,000)")
+plt.title("Profit Prediction")
+
 def predict(x,theta):
   """
   Take in numpy array of x and theta and return the predicted value of y based on theta
